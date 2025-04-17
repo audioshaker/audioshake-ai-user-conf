@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+.env/
+.venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+
+# Generated files
+*.json
+*.txt
+!requirements.txt
+!LICENSE.txt
+!README.txt
+
+# Log files
+*.log
+logs/
+
+# ElevenLabs and OpenAI API keys or config
+.env
+*.env
+config.ini
+config.json
+credentials.json
+
+# Large model files
+*.pth
+*.onnx
+*.pt
+*.h5
+*.hdf5
+*.pb
+*.tflite 

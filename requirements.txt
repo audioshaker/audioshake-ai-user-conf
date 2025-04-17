@@ -1,0 +1,10 @@
+requests==2.31.0
+numpy>=1.20.0
+scipy>=1.11.0
+torch>=2.2.0
+torchaudio>=2.2.0
+soundfile>=0.12.1
+resampy>=0.4.2
+openai>=1.0.0
+elevenlabs>=0.2.24
+pedalboard>=0.8.0
