@@ -1,7 +1,6 @@
 import os
 import time
 import requests
-import subprocess
 import concurrent.futures
 from typing import List, Dict
 

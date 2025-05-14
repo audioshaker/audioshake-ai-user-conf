@@ -56,13 +56,13 @@ if status["job"]["status"] == "completed":
 # - guitar
 # - other
 
-# Film / Dialogue / Television
+# Film / Sports / Television
 # - dialogue
 # - music & effects
 # - music removal
 # - multi_voice (variants: two_speaker, n_speaker)
 
-# Transcription & Detection (json, txt, srt)
+# Transcription & MusicDetection (json, txt, srt)
 # - transcription
 # - alignment
 # - music detection

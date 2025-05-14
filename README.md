@@ -1,6 +1,6 @@
-# AudioShake presentation AI User Conference
+# AudioShake Hackathon Examples
 
-This repository contains utilities and example use-cases for the AudioShake API. For more information, check out [developer.audioshake.ai](https://developer.audioshake.ai)
+This repository contains utilities and example use-cases for the AudioShake API. For more information, check out [developer.audioshake.ai](https://developer.audioshake.ai). `audioshake_client.py` can easily be integrated into other applications.
 
 ## Dependencies
 

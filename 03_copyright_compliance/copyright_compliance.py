@@ -26,17 +26,17 @@ client.process_job(
 
 # Remove Music from a video
 # ~~
-# client.process_job(
-#     file_path="fortnite_stream.mp4",
-#     metadata={"name": "music_removal", "format": "mp3", "residual": True}
-# )
+client.process_job(
+    file_path="fortnite_stream.mp4",
+    metadata={"name": "music_removal", "format": "mp3", "residual": True}
+)
 
 # Replace Music in a video
 # ~~
-# from media_helpers import replace_audio_in_video, sum_audio
+from media_helpers import replace_audio_in_video, sum_audio
 
-# sum_audio(["music_removal.mp3", "instrumental.mp3"], "new_background.mp3")
-# replace_audio_in_video("fortnite_stream.mp4", "new_background.mp3", "fortnite_stream_no_music.mp4")
+sum_audio(["music_removal.mp3", "instrumental.mp3"], "new_background.mp3")
+replace_audio_in_video("fortnite_stream.mp4", "new_background.mp3", "fortnite_stream_no_music.mp4")
 
 # NEXT LEVEL
 # Generate embeddings for the music residual and use them to search for similar music in our library
