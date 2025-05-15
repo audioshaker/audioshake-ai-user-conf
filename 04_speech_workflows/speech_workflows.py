@@ -5,7 +5,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from audioshake_client import AudioShakeClient
 
-client = AudioShakeClient(token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6ImNtOWtqdzNkcTA4bGI4bmJ2YXQ2ZWc2OTkiLCJsaWNlbnNlSWQiOiJjbTlrandodmUwYTcyMDFwcDRyczFmdmhxIiwiaWF0IjoxNzQ0ODQ1NDAzLCJleHAiOjE5MDI1MjU0MDN9.0zR47M607sTvyZfvg47TCOyJA1ILv4q8sSVbithBvUE")
+client = AudioShakeClient(token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6ImNtYW42cG0zYjBkYjNmNWVucHVuNTN0NWIiLCJsaWNlbnNlSWQiOiJjbWFuNnFuc2Mwam5nMDFvOGhpeDFnY29yIiwiaWF0IjoxNzQ3MTgxNDc3LCJleHAiOjE5MDQ4NjE0Nzd9.qSIKGVBtlrbGniib5U4kDNacT02qyrQLvzxvko5CXew")
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Using AudioShake to isolate dialogue 
